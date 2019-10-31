@@ -1,0 +1,158 @@
+[
+  {
+    "elements": [
+      {
+        "id": ";technical-qa-automation-test",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Technical QA Automation test",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the Wefox login page",
+            "result": {
+              "status": "passed",
+              "duration": 4479277736
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/trt/Documents/asahijwani-wefox/support/steps/login_steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I login with \"valid\" credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1402339725
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/trt/Documents/asahijwani-wefox/support/steps/login_steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I verify that the agent image is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 4341235745
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/trt/Documents/asahijwani-wefox/support/steps/user_dashboard_sidebar_steps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the my contracts section",
+            "result": {
+              "status": "passed",
+              "duration": 486791083
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/trt/Documents/asahijwani-wefox/support/steps/user_dashboard_sidebar_steps.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I check if contracts exist",
+            "result": {
+              "status": "passed",
+              "duration": 189389626
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/trt/Documents/asahijwani-wefox/support/steps/my_contracts_steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the profile section",
+            "result": {
+              "status": "passed",
+              "duration": 251791081
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/trt/Documents/asahijwani-wefox/support/steps/user_dashboard_sidebar_steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the personal details box",
+            "result": {
+              "status": "passed",
+              "duration": 424258418
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/trt/Documents/asahijwani-wefox/support/steps/profile_steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I export personal details data to JSON file",
+            "result": {
+              "status": "passed",
+              "duration": 516816761
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/trt/Documents/asahijwani-wefox/support/steps/personal_details_steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on logout",
+            "result": {
+              "status": "passed",
+              "duration": 334313478
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/trt/Documents/asahijwani-wefox/support/steps/user_dashboard_sidebar_steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am redirected to the Wefox homepage",
+            "result": {
+              "status": "failed",
+              "duration": 5002610527,
+              "error_message": "function timed out after 5000 milliseconds"
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/trt/Documents/asahijwani-wefox/support/steps/user_dashboard_sidebar_steps.js:35"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WEFOX-1",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "/Users/trt/Documents/asahijwani-wefox/features/TEST.feature"
+  }
+]
